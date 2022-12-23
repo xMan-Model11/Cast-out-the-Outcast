@@ -1,0 +1,38 @@
+footer {
+    flex: content;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-media {
+    height: 100%;
+    float: left;
+    position: relative;
+}
+
+.links {
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding-left: 3.5em;
+}
+
+.fa {
+    padding: 5px;
+    font-size: 30px;
+    width: 55px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 75%;
+
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
