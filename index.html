@@ -2,7 +2,7 @@
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <![endif]-->
 <html>
     <head>
         <meta charset="utf-8">
@@ -17,17 +17,44 @@
     </head>
     <body>
 
-        <header>
-            <h1>Top 10 Movies/TV Shows</h1>
-            <section id="intro">
-                <p1>Hey guys, I'm outcast and welcome to my site.  I will be making top 10 lists about everything I can think of.  I enjoy all kinds of 
-                    movies and tv shows from drama, oldies, cartoons, anime, and everything in between.  Also, I enjoy sports such as football, boxing, track, 
-                    basketball, and many more.  This is a hobby of mine since I've always liked rating things.  Feel to disagree and welcome aboard!
-                </p1>
-            </section>
+        
+        <header id="header" class="animated slideInDown" style="animation-delay: 1.8s;">
+            <!-- table containing website title & nav bar starts here-->
+            <table>
+                <h1 id="title">Top 10 Movies/TV Shows</h1>
+                <tr>
+                    <td id="navigation">
+                        <!-- Navigation bar elements start here-->
+                        <a href="#intro">Home</a> 
+                        <a href="#listNav">List</a>
+                        <a href="#social-media">Contact</a>
+                        <!--nav bar elements ends here-->
+                    </td>
+                </tr>
+            </table>            
         </header>
+        <!-- header and nav bar table ends here-->
 
+        <table id="top_part">
+            <tr>
+                <td id="bio" class="animated slideInLeft" style="animation-delay:2s;">
+                    <h1>About</h1>
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlkYbwgPgTves0T9LwImoVSGl89myCGUQ1YA&usqp=CAU" height="200" width="330">
+                   <br><br>
+                   <p>Hey guys, I'm outcast and welcome to my site. I will be making top 10 lists about everything I can think of. I enjoy all kinds of 
+                       movies and tv shows from drama, oldies, cartoons, anime, and everything in between. Also, I enjoy sports such as football, boxing, track, 
+                       basketball, and many more. This is a hobby of mine since I've always liked rating things. Feel to disagree and welcome aboard!
+                   </p>
+                   
+                </td>
+                <td id="rightImage" class="animated jackInTheBox" style="animation-delay:2.2s;"></td>
+            </tr>
+        </table>
+
+
+        <!-- top 10 lists section starts here-->
         <section id="list">
+            <h2 id="listNav">Top 10 Movies and Shows</h2>
             <ol type="1" reversed="reversed" id="princess-bride">
                 <li>
                     <h4>Princess Bride</h4>
@@ -104,20 +131,19 @@
                 </li>
             </ol>
         </section>
+        <!-- top 10 list section ends here-->
 
 
+
+
+        <!--footer starts here-->
         <footer>
-            <section class="social-media">
-                <div class="links">
-                    <a href="https://wwww.facebook.com/profile.php?id=100086723471415" class="fa fa-facebook"></a>
-                </div>
-                
-            </section>
         </footer>
         <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
         
-        <script src="" async defer></script>
+        <script src="./script.js" type="text/javascript" async defer>
+        </script>
     </body>
 </html>
